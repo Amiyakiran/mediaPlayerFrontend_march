@@ -10,7 +10,7 @@ function Header() {
     <Navbar className="bg-dark p-3">
       <Container>
         <Navbar.Brand>
-          <Link to={'/'}>
+          <Link to={'/'} style={{textDecoration:'none'}}>
             <h4 className='text-warning'>
               <FontAwesomeIcon icon={faVideo} beat className='me-3' />
               media Player
